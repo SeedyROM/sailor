@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.4.0)
 
 # Globals
 set(EXECUTABLE_NAME todo-list)
-set(PROJECT_BUILD_DIR ${"CMAKE_SOURCE_DIR}/.cmakebuild"})
+set(PROJECT_BUILD_DIR "${CMAKE_SOURCE_DIR}/.cmakebuild")
 
 project(${EXECUTABLE_NAME})
 # Configure our shit
