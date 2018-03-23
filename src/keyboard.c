@@ -1,7 +1,7 @@
 #include "program.h"
 #include "keyboard.h"
 
-void keyboard_handle_keys(program_state* state) {
+void keyboard_handle_keys(struct _program_state* state) {
     // Get a single character from stdin.
     const char key = getchar();
 

@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+struct _program_state;
+
 typedef enum {
     NO_KEY = 0,
     UP = 'A',
@@ -10,4 +12,4 @@ typedef enum {
     LEFT = 'D',
 } keyboard_key;
 
-void keyboard_handle_keys(program_state* state);
+void keyboard_handle_keys(struct _program_state* state);
